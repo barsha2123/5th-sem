@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>7 Types of Attribute Selectors</title>
+
+  <style>
+   
+    input[disabled] {
+      background-color:yellow;
+     
+    }
+
+    input[type="email"] {
+      border: 2px solid blue;
+    }
+
+    
+    .btn[class~="primary"] {
+      background-color: green;
+      color: white;
+      padding: 10px;
+    }
+
+    p[lang|="en"] {
+      color: green;
+      font-weight: bold;
+    }
+
+    a[href^="https"] {
+      color: green;
+    }
+
+    img[src$=".png"] {
+      border: 3px solid red;
+    }
+
+    
+    a[href*="w3school"] {
+      text-decoration: underline;
+    }
+
+  
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    img {
+      width: 100px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>7 Types of CSS Attribute Selectors</h2>
+
+  
+  <input type="password" disabled placeholder="Disabled input">
+
+  <br><br>
+
+ 
+  <input type="email" placeholder="Email input">
+
+  <br><br>
+
+ 
+  <button class="btn primary">Primary Button</button>
+
+  <br><br>
+
+  <p lang="en">Hello</p>
+ 
+  <p lang="fr">Bonjour</p>
+
+  <br>
+
+  
+  <a href="https://www.w3schools.com/">w3school (https)</a><br>
+  
+
+  <br><br>
+
+  <img src="flower.png" alt="flower">
+ 
+
+</body>
+</html>
