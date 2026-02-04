@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+     body {
+      background-color: gray;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      border: 2px dashed blue;
+      padding: 10px;
+      margin: 20px;
+      background-color: white;
+    }
+
+    p.four{
+        border:2px solid black;
+        margin:100px 150px 120px 80px;
+    }
+    p.two{
+         border:2px solid black;
+        margin:100px 50px;
+    }
+    p.three{
+         border:2px solid black;
+        margin:100px 50px 120px;
+    }
+    p.single{
+         border:2px solid black;
+        margin:50px;
+    }
+     .auto {
+      width: 200px;
+      margin: auto;
+      background-color:skyblue;
+    }
+    .parent {
+      margin: 40px;
+      border: 2px solid red;
+      padding: 10px;
+    }
+ .child {
+      margin: inherit;
+      background-color: #FF9800;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barsha lab14</title>
+</head>
+<body>
+   <div class="container">
+    
+    <p class="four">four value</p>
+    <p class="two">two value</p>
+    <p class="three">three value</p>
+    <p class="single">single value</p>
+     <p class="box auto">
+      Margin Auto 
+     </p>
+</div>
+<div class="parent">
+    Parent Element 
+
+    <div class="box child">
+      Child Element 
+    </div>
+  </div>
+</body>
+</html>
